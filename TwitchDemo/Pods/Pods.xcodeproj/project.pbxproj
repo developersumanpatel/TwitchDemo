@@ -1,0 +1,1033 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05B179953A5A08148811C2D269009455 /* CreateStreamMarkerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AE94249F8AD37F36C90C9BC4A76605 /* CreateStreamMarkerData.swift */; };
+		0996A20E56682703D655975FACA71FA9 /* Unmarshaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178F760235446CAD24D6567863AD2552 /* Unmarshaling.swift */; };
+		0EC3653693ECC83A20F9994C2AD1B709 /* CreateClipInfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D655471910A098F49E47898744D013 /* CreateClipInfoData.swift */; };
+		117D8485F40D3E58638884E1C8D8341C /* Pods-TwitchDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2A817484BDB4D534997C5DBF117140 /* Pods-TwitchDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		198C9679587D900AF71EF6103790035D /* HearthstonePlayerMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC2765A29B296BC81765C867BC27B9 /* HearthstonePlayerMetadata.swift */; };
+		1C9B1E837B4768D77D3AED2CA0F012BC /* SwiftTwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C25FE0A680989EDAD0040366E9810A1 /* SwiftTwitch-dummy.m */; };
+		1D3BD15AA7FE2422D52F60BC0A4B776C /* MarshaledObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504EBB4E6E5986489F8713D985992126 /* MarshaledObject.swift */; };
+		1F2552CC7DFFB0401EE8ED084C1944AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC9B420223FBB8ECCADD4D4F832582 /* Foundation.framework */; };
+		295EA444DD980AACFA08811CDBF145DD /* HearthstoneHeroMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7EA665D077A347614FBAFE9E53657D /* HearthstoneHeroMetadata.swift */; };
+		2F9A85BAE9F207CD920D43427F6AD054 /* GameAnalyticsReportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89933A8745691B69CB00CADCD6C66D4D /* GameAnalyticsReportData.swift */; };
+		343DD67E23DADDB3D0F8353C843BC566 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC9B420223FBB8ECCADD4D4F832582 /* Foundation.framework */; };
+		3670B9E968DB7291BB20B44051E0A5E9 /* UnpostedStreamMarkerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F9D18529D4E3E5F9DC8F13967B65F8 /* UnpostedStreamMarkerData.swift */; };
+		3A5CA9F13D29FF4DBDCE230E81C87451 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6C3F977BEA558B70DF68A88EC06828 /* JSON.swift */; };
+		3B7A9C5197EAF3867C1DF38EE8941A6F /* OverwatchMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A918CF6A7CC0988698C0E34FC7C4F0 /* OverwatchMetadata.swift */; };
+		41151B0B757ABE86D370CFFB5A2CFABF /* ExtensionAnalyticsReportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B5DFB4A30E69859AF2119AE2892ED /* ExtensionAnalyticsReportData.swift */; };
+		413F8F28DED6B654E45632F72586F978 /* Marshal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1075E3E56999A91795F0D5D82F0BB325 /* Marshal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49A8D443498253A289CBE272F9A5CC34 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633846830CDAC3B55129D0CAEB85AF /* URLExtension.swift */; };
+		5F3CCF7B91850DF17146CAF56FAFF5E6 /* GetUserExtensionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19875BB34266733CDF699023DA13409A /* GetUserExtensionsData.swift */; };
+		60FDD4A3CAE478BC05DFD22B015451D0 /* StreamMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FD09F51BF13CF16B8F931BEE9DD6CE /* StreamMetadata.swift */; };
+		645C19762B4E65604E607CEED3C1ABC0 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C5C4A2AE2468F9589771053E45565 /* Error.swift */; };
+		663AAF534B6919CA6D198F29366A2F3D /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92376C175E4AC40EA53E43AB02EF3E8B /* Migration.swift */; };
+		67E78EB9FDFCE5A882A8EC5EA30C3734 /* ClipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DF1DD3EA9F4B3327FE2BE07B808338 /* ClipData.swift */; };
+		6806DAC61E5A5AB96D54A1E06F9C1101 /* URLRequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071CB70C7BE9CED2763746B9EA34D190 /* URLRequestExtension.swift */; };
+		6AF56B9DDE2A68020C504070E615E91D /* TwitchTokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A262B29FBAA9FBDD17894243041E7602 /* TwitchTokenManager.swift */; };
+		6FD2CCA044C1B7C1B8D2AC78514FF068 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B2662ED1638CE7FB29C75585F4844 /* Operators.swift */; };
+		726751A98D5EF46A0B18BF475D0176ED /* GetClipsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E77410A31DE682B901205487CB42776 /* GetClipsData.swift */; };
+		72F2ACC9CA4AD0EA886D2749BEF33686 /* GetStreamsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D1A1F4355AF4CF50737313720EB38 /* GetStreamsData.swift */; };
+		7AE42F9D15EC5E06333DB99EE384F737 /* MarkedStreamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CE60B91791C7F693FBD186F4D68007 /* MarkedStreamData.swift */; };
+		7C30F0CCB4C264D39F75ABC775284E3E /* Pods-TwitchDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E1C09D4C1FFD4C7C37569DC9ECE494 /* Pods-TwitchDemo-dummy.m */; };
+		8A9FE01766CE03CBD7843A6797B9BAAC /* PostedStreamMarkerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF7D65AB757747A9C9741968BA63741 /* PostedStreamMarkerData.swift */; };
+		8B118A45C392741852E7E294560C5AD8 /* GetGamesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BC3AAFCD853F434021A93C90824B1 /* GetGamesData.swift */; };
+		8E4BF409D5855E69DF2F8358AA150237 /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92F5A2568BB6E74D881E74EE5E318A8 /* DictionaryExtensions.swift */; };
+		905A138F6CB40321EDCEB9EF59A38889 /* GetStreamMarkersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE17599FCCF75C0DDE3C297777A6BB5 /* GetStreamMarkersData.swift */; };
+		96AE3B4D6077E9F3DF2C1C26F63E4A80 /* CreateClipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8DA0BF999A52C89213035D3DD4FD9 /* CreateClipData.swift */; };
+		9BE8414CC802013FBD6E5B0211B046CE /* HearthstoneMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447F2519A42EC4E17E62FF8EF1429667 /* HearthstoneMetadata.swift */; };
+		9D971F0530AE519F771C582CD2553C96 /* StreamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A6DAFA602DC209CD31E389FE72FD00 /* StreamData.swift */; };
+		9D991E73374F8486CA4356A9CA3A3D1F /* Marshaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99B17C8392EE926772777CF6868BD5B /* Marshaling.swift */; };
+		A2D1EA42C6E724CA95F97E11E70E3E42 /* GetExtensionAnalyticsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74DF170E4D7AA87FED14469A9FD31FA /* GetExtensionAnalyticsData.swift */; };
+		A6C14734130CBDE73F017973F809DCE8 /* VideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF0DBC3B218A11A9FB2DEF7638141FD /* VideoData.swift */; };
+		A7F8AE40DF0C2D48542F6E24D92CFAD2 /* GetTopGamesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2318171C7406C8CC97950B147559B0 /* GetTopGamesData.swift */; };
+		A843A431774BD0A0EB14679E2EF7D086 /* Marshal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB327940B690235A44886F8A541AA3F /* Marshal.framework */; };
+		A9DE7131A3102A3FFEB3DE34CE21840F /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5DF382612E5CC328DA89CFDF6521BD /* UserData.swift */; };
+		AD2C6444F955F3B2D72A7B168982D4DD /* KeyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C4CBBA614903960985D4332B773DD /* KeyType.swift */; };
+		B3D1270C4C9325BFC0945E5EF923B917 /* DataParsingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787B17E210A84856A367B8837850A062 /* DataParsingExtensions.swift */; };
+		BD3390B084D298741F792AF6BF503386 /* Marshal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B13F0A273ACBED859D64E6117F8E3 /* Marshal-dummy.m */; };
+		BDD1419E5023DA310C7D570216B30D1E /* PaginationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E12348F275AF9CE61F933730615BA /* PaginationData.swift */; };
+		BEFBD35531B6216F9F7803B89FF5E8CD /* UnmarshalingWithContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD810A71124FE663FD1565F0D17A749 /* UnmarshalingWithContext.swift */; };
+		C26A8BE6D1219CB1194C784014EFBF1A /* GetStreamsMetadataData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105A09C05D8B4C17FC3C21E08BE829C9 /* GetStreamsMetadataData.swift */; };
+		C514BC4BE937EC73CAE02D0913222471 /* ExtensionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB400ED4C9A93227CC49A6E0476ACD1 /* ExtensionData.swift */; };
+		C7538090A767BC519B3960D995234D11 /* OverwatchPlayerMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A28307E66F3957BF5FF70037D3D7D68 /* OverwatchPlayerMetadata.swift */; };
+		CB02E009C45B6B0179442D0B60990D66 /* MarkedVideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BB327C353ED1EEFB24FE19D667549A /* MarkedVideoData.swift */; };
+		CCFBD7626E1FA1AFDBF75BFAD9A94CCF /* Twitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B28EF44C7EFD857918B510E9EFB06 /* Twitch.swift */; };
+		CDA3198A01E7D1BC63745BC3BBBE3828 /* SwiftTwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6B793C6F08E87C1E73C76CCF962F30A /* SwiftTwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE5F827004C3DBABCA23B71330CADADC /* GetUsersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFE98C9C83E32E8458057BEC8DB0314 /* GetUsersData.swift */; };
+		D007BFD6D34E4095CDA420030CA16EBC /* OverwatchHeroMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF05D2908C2F2CBC1F75851D2EBB72B /* OverwatchHeroMetadata.swift */; };
+		D785F1AFC78D9612FB14B2717A9EA215 /* UnmarshalUpdating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117AC9CBF2CE3578D0A2C5C3B90EFE90 /* UnmarshalUpdating.swift */; };
+		DBB303CA5743F000C1874C00165C5080 /* UserFollowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AC61EF965D85D36BE689E11C25F40 /* UserFollowData.swift */; };
+		DFA0A575818401F9CA4448006F4048A6 /* ValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECD00C51968C607DEC64C0D20AC7A2 /* ValueType.swift */; };
+		E17D601FF6C04FCD24AE337421C137E5 /* DateFormattingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B58E2DCAEE12A5ED9B760DCB3993B1 /* DateFormattingExtensions.swift */; };
+		E26851FB3C86BBE196E4C41F13125219 /* GetVideosData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581BDE5EF42F3700EF4FFA1E45AA1C8D /* GetVideosData.swift */; };
+		E2943FD3EB5CDDE62341EB85A8D14D84 /* UpdateUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8162EAAABFAB139030FCA347D4C196 /* UpdateUserData.swift */; };
+		E6E0253AF64E25B312B06F65D82D2425 /* GetUsersFollowsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB6B017C7741B84B6FB194432FB85EA /* GetUsersFollowsData.swift */; };
+		EB9977DE154D370B4E31A3F9D278B68E /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C343948CEF8006B4143E5AA3E023553 /* GameData.swift */; };
+		ED6AF7FBE64187787C62D9A50CAC2389 /* GetBitsLeaderboardUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2482F2C9B8171315167D8CB24CF490DD /* GetBitsLeaderboardUserData.swift */; };
+		EDB246A64550C3E0FC3C36E04D88F5F8 /* MarshalDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453A49E52A306F5DC099C84D535FAB7 /* MarshalDictionary.swift */; };
+		F482B9B0F009AD6F4AF64C2639BDA16F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC9B420223FBB8ECCADD4D4F832582 /* Foundation.framework */; };
+		F689C4B4CB2431CF20371EBA11920208 /* GetGameAnalyticsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93E8ADB72655D28FB8814F70BA794E8 /* GetGameAnalyticsData.swift */; };
+		F77A95FD09AEDC8E0AED98C6F225CD28 /* GetBitsLeaderboardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F1D87E1B906F75FE94FDA54A2D69F /* GetBitsLeaderboardData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05FD25C522AAE6DA3AD8DCC422C762E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66073FB54BF5ED2CD4B22AB78C109473;
+			remoteInfo = Marshal;
+		};
+		7A8F584E4271CB1148654B2E5775E51F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 755813C3F50F2AA077F7EC0B5E3A85FE;
+			remoteInfo = SwiftTwitch;
+		};
+		C1CB8306B586F281D421F56996FC9DB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66073FB54BF5ED2CD4B22AB78C109473;
+			remoteInfo = Marshal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029B13F0A273ACBED859D64E6117F8E3 /* Marshal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Marshal-dummy.m"; sourceTree = "<group>"; };
+		04D8DA0BF999A52C89213035D3DD4FD9 /* CreateClipData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateClipData.swift; path = SwiftTwitch/Classes/Results/Clips/CreateClipData.swift; sourceTree = "<group>"; };
+		071CB70C7BE9CED2763746B9EA34D190 /* URLRequestExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRequestExtension.swift; path = "SwiftTwitch/Classes/Helping Extensions/URLRequestExtension.swift"; sourceTree = "<group>"; };
+		09775FD307406517D8445C1EAFB39D17 /* Pods-TwitchDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitchDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		0AAAE897511601A76CCA4CAE2C6E9806 /* SwiftTwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftTwitch-prefix.pch"; sourceTree = "<group>"; };
+		105A09C05D8B4C17FC3C21E08BE829C9 /* GetStreamsMetadataData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetStreamsMetadataData.swift; path = SwiftTwitch/Classes/Results/Streams/GetStreamsMetadataData.swift; sourceTree = "<group>"; };
+		1075E3E56999A91795F0D5D82F0BB325 /* Marshal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Marshal-umbrella.h"; sourceTree = "<group>"; };
+		117AC9CBF2CE3578D0A2C5C3B90EFE90 /* UnmarshalUpdating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnmarshalUpdating.swift; path = Sources/UnmarshalUpdating.swift; sourceTree = "<group>"; };
+		12DF1DD3EA9F4B3327FE2BE07B808338 /* ClipData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClipData.swift; path = SwiftTwitch/Classes/Results/Clips/ClipData.swift; sourceTree = "<group>"; };
+		148D799D59A686D91FE78D73D6F7B951 /* SwiftTwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftTwitch.modulemap; sourceTree = "<group>"; };
+		178F760235446CAD24D6567863AD2552 /* Unmarshaling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unmarshaling.swift; path = Sources/Unmarshaling.swift; sourceTree = "<group>"; };
+		19875BB34266733CDF699023DA13409A /* GetUserExtensionsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetUserExtensionsData.swift; path = SwiftTwitch/Classes/Results/Users/GetUserExtensionsData.swift; sourceTree = "<group>"; };
+		1A28307E66F3957BF5FF70037D3D7D68 /* OverwatchPlayerMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverwatchPlayerMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Overwatch/OverwatchPlayerMetadata.swift"; sourceTree = "<group>"; };
+		1CB327940B690235A44886F8A541AA3F /* Marshal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Marshal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		230BF53E2656D6A3D7AFF8D36767DDD3 /* Marshal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Marshal-prefix.pch"; sourceTree = "<group>"; };
+		2482F2C9B8171315167D8CB24CF490DD /* GetBitsLeaderboardUserData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetBitsLeaderboardUserData.swift; path = SwiftTwitch/Classes/Results/Bits/GetBitsLeaderboardUserData.swift; sourceTree = "<group>"; };
+		27D655471910A098F49E47898744D013 /* CreateClipInfoData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateClipInfoData.swift; path = SwiftTwitch/Classes/Results/Clips/CreateClipInfoData.swift; sourceTree = "<group>"; };
+		2A5B5DFB4A30E69859AF2119AE2892ED /* ExtensionAnalyticsReportData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionAnalyticsReportData.swift; path = SwiftTwitch/Classes/Results/Analytics/ExtensionAnalyticsReportData.swift; sourceTree = "<group>"; };
+		30CE60B91791C7F693FBD186F4D68007 /* MarkedStreamData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkedStreamData.swift; path = "SwiftTwitch/Classes/Results/Streams/Stream Marker Data Types/MarkedStreamData.swift"; sourceTree = "<group>"; };
+		317C7B6F2B75CD15DEDD951F38D23D75 /* Marshal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Marshal-Info.plist"; sourceTree = "<group>"; };
+		33C3D323CD2863D87D9E5592B3434F2E /* Pods-TwitchDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitchDemo.modulemap"; sourceTree = "<group>"; };
+		35E1C09D4C1FFD4C7C37569DC9ECE494 /* Pods-TwitchDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitchDemo-dummy.m"; sourceTree = "<group>"; };
+		447F2519A42EC4E17E62FF8EF1429667 /* HearthstoneMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HearthstoneMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Hearthstone/HearthstoneMetadata.swift"; sourceTree = "<group>"; };
+		44AE94249F8AD37F36C90C9BC4A76605 /* CreateStreamMarkerData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateStreamMarkerData.swift; path = SwiftTwitch/Classes/Results/Streams/CreateStreamMarkerData.swift; sourceTree = "<group>"; };
+		4C3AC61EF965D85D36BE689E11C25F40 /* UserFollowData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserFollowData.swift; path = SwiftTwitch/Classes/Results/Users/UserFollowData.swift; sourceTree = "<group>"; };
+		4DE771381E73F4CF974CCD5CF1AB5AF9 /* Pods-TwitchDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitchDemo-frameworks.sh"; sourceTree = "<group>"; };
+		504EBB4E6E5986489F8713D985992126 /* MarshaledObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarshaledObject.swift; path = Sources/MarshaledObject.swift; sourceTree = "<group>"; };
+		54BD4DD4BB4B4A0DF466FC0765A5A285 /* Pods_TwitchDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitchDemo.framework; path = "Pods-TwitchDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55EC2D5B27CCFAF682D81FBBBEA22CAE /* SwiftTwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftTwitch.framework; path = SwiftTwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		566BC3AAFCD853F434021A93C90824B1 /* GetGamesData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetGamesData.swift; path = SwiftTwitch/Classes/Results/Games/GetGamesData.swift; sourceTree = "<group>"; };
+		56FD09F51BF13CF16B8F931BEE9DD6CE /* StreamMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/StreamMetadata.swift"; sourceTree = "<group>"; };
+		581BDE5EF42F3700EF4FFA1E45AA1C8D /* GetVideosData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetVideosData.swift; path = SwiftTwitch/Classes/Results/Videos/GetVideosData.swift; sourceTree = "<group>"; };
+		5BFC2765A29B296BC81765C867BC27B9 /* HearthstonePlayerMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HearthstonePlayerMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Hearthstone/HearthstonePlayerMetadata.swift"; sourceTree = "<group>"; };
+		607F0811EE345FB76A818076947BE8E2 /* SwiftTwitch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftTwitch-Info.plist"; sourceTree = "<group>"; };
+		69EBB10990BC37358BAFF49910BD94F5 /* Marshal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Marshal.debug.xcconfig; sourceTree = "<group>"; };
+		6AD810A71124FE663FD1565F0D17A749 /* UnmarshalingWithContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnmarshalingWithContext.swift; path = Sources/UnmarshalingWithContext.swift; sourceTree = "<group>"; };
+		6B8162EAAABFAB139030FCA347D4C196 /* UpdateUserData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpdateUserData.swift; path = SwiftTwitch/Classes/Results/Users/UpdateUserData.swift; sourceTree = "<group>"; };
+		6F3B2662ED1638CE7FB29C75585F4844 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
+		74DC9B420223FBB8ECCADD4D4F832582 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76AEFCDF03321E15E96F106235CD755D /* SwiftTwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftTwitch.debug.xcconfig; sourceTree = "<group>"; };
+		787B17E210A84856A367B8837850A062 /* DataParsingExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataParsingExtensions.swift; path = "SwiftTwitch/Classes/Helping Extensions/DataParsingExtensions.swift"; sourceTree = "<group>"; };
+		7A761A429B5D6A5EB1FA8BF141EC45AE /* Pods-TwitchDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitchDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BF0DBC3B218A11A9FB2DEF7638141FD /* VideoData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoData.swift; path = SwiftTwitch/Classes/Results/Videos/VideoData.swift; sourceTree = "<group>"; };
+		7C25FE0A680989EDAD0040366E9810A1 /* SwiftTwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftTwitch-dummy.m"; sourceTree = "<group>"; };
+		7DB6B017C7741B84B6FB194432FB85EA /* GetUsersFollowsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetUsersFollowsData.swift; path = SwiftTwitch/Classes/Results/Users/GetUsersFollowsData.swift; sourceTree = "<group>"; };
+		85BB327C353ED1EEFB24FE19D667549A /* MarkedVideoData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkedVideoData.swift; path = "SwiftTwitch/Classes/Results/Streams/Stream Marker Data Types/MarkedVideoData.swift"; sourceTree = "<group>"; };
+		89933A8745691B69CB00CADCD6C66D4D /* GameAnalyticsReportData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GameAnalyticsReportData.swift; path = SwiftTwitch/Classes/Results/Analytics/GameAnalyticsReportData.swift; sourceTree = "<group>"; };
+		8C343948CEF8006B4143E5AA3E023553 /* GameData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GameData.swift; path = SwiftTwitch/Classes/Results/Games/GameData.swift; sourceTree = "<group>"; };
+		8E77410A31DE682B901205487CB42776 /* GetClipsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetClipsData.swift; path = SwiftTwitch/Classes/Results/Clips/GetClipsData.swift; sourceTree = "<group>"; };
+		90AC4AE3B639F1529A1CEF06F7D2886C /* Marshal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Marshal.modulemap; sourceTree = "<group>"; };
+		92376C175E4AC40EA53E43AB02EF3E8B /* Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Migration.swift; path = Sources/Migration.swift; sourceTree = "<group>"; };
+		98A6DAFA602DC209CD31E389FE72FD00 /* StreamData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamData.swift; path = SwiftTwitch/Classes/Results/Streams/StreamData.swift; sourceTree = "<group>"; };
+		9A21CA1CE55C1A7C75B042D8CB095F2E /* Pods-TwitchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitchDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9BB400ED4C9A93227CC49A6E0476ACD1 /* ExtensionData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionData.swift; path = SwiftTwitch/Classes/Results/Users/ExtensionData.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2318171C7406C8CC97950B147559B0 /* GetTopGamesData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetTopGamesData.swift; path = SwiftTwitch/Classes/Results/Games/GetTopGamesData.swift; sourceTree = "<group>"; };
+		A262B29FBAA9FBDD17894243041E7602 /* TwitchTokenManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitchTokenManager.swift; path = SwiftTwitch/Classes/TwitchTokenManager.swift; sourceTree = "<group>"; };
+		A6B793C6F08E87C1E73C76CCF962F30A /* SwiftTwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftTwitch-umbrella.h"; sourceTree = "<group>"; };
+		A76F1D87E1B906F75FE94FDA54A2D69F /* GetBitsLeaderboardData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetBitsLeaderboardData.swift; path = SwiftTwitch/Classes/Results/Bits/GetBitsLeaderboardData.swift; sourceTree = "<group>"; };
+		A92F5A2568BB6E74D881E74EE5E318A8 /* DictionaryExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryExtensions.swift; path = "SwiftTwitch/Classes/Helping Extensions/DictionaryExtensions.swift"; sourceTree = "<group>"; };
+		ABF05D2908C2F2CBC1F75851D2EBB72B /* OverwatchHeroMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverwatchHeroMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Overwatch/OverwatchHeroMetadata.swift"; sourceTree = "<group>"; };
+		AD7EA665D077A347614FBAFE9E53657D /* HearthstoneHeroMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HearthstoneHeroMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Hearthstone/HearthstoneHeroMetadata.swift"; sourceTree = "<group>"; };
+		B155D020066EA8D6373E7BFA25D18E80 /* Pods-TwitchDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitchDemo-Info.plist"; sourceTree = "<group>"; };
+		B1F9D18529D4E3E5F9DC8F13967B65F8 /* UnpostedStreamMarkerData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnpostedStreamMarkerData.swift; path = "SwiftTwitch/Classes/Results/Streams/Stream Marker Data Types/UnpostedStreamMarkerData.swift"; sourceTree = "<group>"; };
+		B453A49E52A306F5DC099C84D535FAB7 /* MarshalDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarshalDictionary.swift; path = Sources/MarshalDictionary.swift; sourceTree = "<group>"; };
+		B74DF170E4D7AA87FED14469A9FD31FA /* GetExtensionAnalyticsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetExtensionAnalyticsData.swift; path = SwiftTwitch/Classes/Results/Analytics/GetExtensionAnalyticsData.swift; sourceTree = "<group>"; };
+		BBE17599FCCF75C0DDE3C297777A6BB5 /* GetStreamMarkersData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetStreamMarkersData.swift; path = SwiftTwitch/Classes/Results/Streams/GetStreamMarkersData.swift; sourceTree = "<group>"; };
+		BBF7D65AB757747A9C9741968BA63741 /* PostedStreamMarkerData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostedStreamMarkerData.swift; path = "SwiftTwitch/Classes/Results/Streams/Stream Marker Data Types/PostedStreamMarkerData.swift"; sourceTree = "<group>"; };
+		C03E12348F275AF9CE61F933730615BA /* PaginationData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaginationData.swift; path = SwiftTwitch/Classes/Results/PaginationData.swift; sourceTree = "<group>"; };
+		C0F4BDBD152CF13D580057CF1CA4D6CA /* Marshal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Marshal.framework; path = Marshal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97C4CBBA614903960985D4332B773DD /* KeyType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyType.swift; path = Sources/KeyType.swift; sourceTree = "<group>"; };
+		CA2A817484BDB4D534997C5DBF117140 /* Pods-TwitchDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitchDemo-umbrella.h"; sourceTree = "<group>"; };
+		CB633846830CDAC3B55129D0CAEB85AF /* URLExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLExtension.swift; path = "SwiftTwitch/Classes/Helping Extensions/URLExtension.swift"; sourceTree = "<group>"; };
+		CCECD00C51968C607DEC64C0D20AC7A2 /* ValueType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueType.swift; path = Sources/ValueType.swift; sourceTree = "<group>"; };
+		CD6B28EF44C7EFD857918B510E9EFB06 /* Twitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Twitch.swift; path = SwiftTwitch/Classes/Twitch.swift; sourceTree = "<group>"; };
+		CF5DF382612E5CC328DA89CFDF6521BD /* UserData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserData.swift; path = SwiftTwitch/Classes/Results/Users/UserData.swift; sourceTree = "<group>"; };
+		D15D1A1F4355AF4CF50737313720EB38 /* GetStreamsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetStreamsData.swift; path = SwiftTwitch/Classes/Results/Streams/GetStreamsData.swift; sourceTree = "<group>"; };
+		D1A918CF6A7CC0988698C0E34FC7C4F0 /* OverwatchMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverwatchMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Overwatch/OverwatchMetadata.swift"; sourceTree = "<group>"; };
+		D9B58E2DCAEE12A5ED9B760DCB3993B1 /* DateFormattingExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormattingExtensions.swift; path = "SwiftTwitch/Classes/Helping Extensions/DateFormattingExtensions.swift"; sourceTree = "<group>"; };
+		DCFE98C9C83E32E8458057BEC8DB0314 /* GetUsersData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetUsersData.swift; path = SwiftTwitch/Classes/Results/Users/GetUsersData.swift; sourceTree = "<group>"; };
+		EC0AE1E2C1F663AE8DBF9B2AA2D2713D /* Marshal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Marshal.release.xcconfig; sourceTree = "<group>"; };
+		F39227E5EBBD747F9C669134EE704F78 /* SwiftTwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftTwitch.release.xcconfig; sourceTree = "<group>"; };
+		F82C5C4A2AE2468F9589771053E45565 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
+		F93E8ADB72655D28FB8814F70BA794E8 /* GetGameAnalyticsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetGameAnalyticsData.swift; path = SwiftTwitch/Classes/Results/Analytics/GetGameAnalyticsData.swift; sourceTree = "<group>"; };
+		F99B17C8392EE926772777CF6868BD5B /* Marshaling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Marshaling.swift; path = Sources/Marshaling.swift; sourceTree = "<group>"; };
+		FA873FCBC07543BCAD90B4F1ED592FC8 /* Pods-TwitchDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitchDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FC6C3F977BEA558B70DF68A88EC06828 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6728D1107B3228C053401ADE24333044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F482B9B0F009AD6F4AF64C2639BDA16F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98F0CB23B29A42D6A891777F9839D5B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343DD67E23DADDB3D0F8353C843BC566 /* Foundation.framework in Frameworks */,
+				A843A431774BD0A0EB14679E2EF7D086 /* Marshal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF9342DAFE60DB42951DB4974313386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2552CC7DFFB0401EE8ED084C1944AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24E2CFD4FA26CB007B7B829ADB9A3149 /* SwiftTwitch */ = {
+			isa = PBXGroup;
+			children = (
+				12DF1DD3EA9F4B3327FE2BE07B808338 /* ClipData.swift */,
+				04D8DA0BF999A52C89213035D3DD4FD9 /* CreateClipData.swift */,
+				27D655471910A098F49E47898744D013 /* CreateClipInfoData.swift */,
+				44AE94249F8AD37F36C90C9BC4A76605 /* CreateStreamMarkerData.swift */,
+				787B17E210A84856A367B8837850A062 /* DataParsingExtensions.swift */,
+				D9B58E2DCAEE12A5ED9B760DCB3993B1 /* DateFormattingExtensions.swift */,
+				A92F5A2568BB6E74D881E74EE5E318A8 /* DictionaryExtensions.swift */,
+				2A5B5DFB4A30E69859AF2119AE2892ED /* ExtensionAnalyticsReportData.swift */,
+				9BB400ED4C9A93227CC49A6E0476ACD1 /* ExtensionData.swift */,
+				89933A8745691B69CB00CADCD6C66D4D /* GameAnalyticsReportData.swift */,
+				8C343948CEF8006B4143E5AA3E023553 /* GameData.swift */,
+				A76F1D87E1B906F75FE94FDA54A2D69F /* GetBitsLeaderboardData.swift */,
+				2482F2C9B8171315167D8CB24CF490DD /* GetBitsLeaderboardUserData.swift */,
+				8E77410A31DE682B901205487CB42776 /* GetClipsData.swift */,
+				B74DF170E4D7AA87FED14469A9FD31FA /* GetExtensionAnalyticsData.swift */,
+				F93E8ADB72655D28FB8814F70BA794E8 /* GetGameAnalyticsData.swift */,
+				566BC3AAFCD853F434021A93C90824B1 /* GetGamesData.swift */,
+				BBE17599FCCF75C0DDE3C297777A6BB5 /* GetStreamMarkersData.swift */,
+				D15D1A1F4355AF4CF50737313720EB38 /* GetStreamsData.swift */,
+				105A09C05D8B4C17FC3C21E08BE829C9 /* GetStreamsMetadataData.swift */,
+				9E2318171C7406C8CC97950B147559B0 /* GetTopGamesData.swift */,
+				19875BB34266733CDF699023DA13409A /* GetUserExtensionsData.swift */,
+				DCFE98C9C83E32E8458057BEC8DB0314 /* GetUsersData.swift */,
+				7DB6B017C7741B84B6FB194432FB85EA /* GetUsersFollowsData.swift */,
+				581BDE5EF42F3700EF4FFA1E45AA1C8D /* GetVideosData.swift */,
+				AD7EA665D077A347614FBAFE9E53657D /* HearthstoneHeroMetadata.swift */,
+				447F2519A42EC4E17E62FF8EF1429667 /* HearthstoneMetadata.swift */,
+				5BFC2765A29B296BC81765C867BC27B9 /* HearthstonePlayerMetadata.swift */,
+				30CE60B91791C7F693FBD186F4D68007 /* MarkedStreamData.swift */,
+				85BB327C353ED1EEFB24FE19D667549A /* MarkedVideoData.swift */,
+				ABF05D2908C2F2CBC1F75851D2EBB72B /* OverwatchHeroMetadata.swift */,
+				D1A918CF6A7CC0988698C0E34FC7C4F0 /* OverwatchMetadata.swift */,
+				1A28307E66F3957BF5FF70037D3D7D68 /* OverwatchPlayerMetadata.swift */,
+				C03E12348F275AF9CE61F933730615BA /* PaginationData.swift */,
+				BBF7D65AB757747A9C9741968BA63741 /* PostedStreamMarkerData.swift */,
+				98A6DAFA602DC209CD31E389FE72FD00 /* StreamData.swift */,
+				56FD09F51BF13CF16B8F931BEE9DD6CE /* StreamMetadata.swift */,
+				CD6B28EF44C7EFD857918B510E9EFB06 /* Twitch.swift */,
+				A262B29FBAA9FBDD17894243041E7602 /* TwitchTokenManager.swift */,
+				B1F9D18529D4E3E5F9DC8F13967B65F8 /* UnpostedStreamMarkerData.swift */,
+				6B8162EAAABFAB139030FCA347D4C196 /* UpdateUserData.swift */,
+				CB633846830CDAC3B55129D0CAEB85AF /* URLExtension.swift */,
+				071CB70C7BE9CED2763746B9EA34D190 /* URLRequestExtension.swift */,
+				CF5DF382612E5CC328DA89CFDF6521BD /* UserData.swift */,
+				4C3AC61EF965D85D36BE689E11C25F40 /* UserFollowData.swift */,
+				7BF0DBC3B218A11A9FB2DEF7638141FD /* VideoData.swift */,
+				534BE89F683C1D0F0725DCA509E28DA1 /* Support Files */,
+			);
+			name = SwiftTwitch;
+			path = SwiftTwitch;
+			sourceTree = "<group>";
+		};
+		2B1250C6DE9017BF954518230B81176E /* Marshal */ = {
+			isa = PBXGroup;
+			children = (
+				F82C5C4A2AE2468F9589771053E45565 /* Error.swift */,
+				FC6C3F977BEA558B70DF68A88EC06828 /* JSON.swift */,
+				C97C4CBBA614903960985D4332B773DD /* KeyType.swift */,
+				B453A49E52A306F5DC099C84D535FAB7 /* MarshalDictionary.swift */,
+				504EBB4E6E5986489F8713D985992126 /* MarshaledObject.swift */,
+				F99B17C8392EE926772777CF6868BD5B /* Marshaling.swift */,
+				92376C175E4AC40EA53E43AB02EF3E8B /* Migration.swift */,
+				6F3B2662ED1638CE7FB29C75585F4844 /* Operators.swift */,
+				178F760235446CAD24D6567863AD2552 /* Unmarshaling.swift */,
+				6AD810A71124FE663FD1565F0D17A749 /* UnmarshalingWithContext.swift */,
+				117AC9CBF2CE3578D0A2C5C3B90EFE90 /* UnmarshalUpdating.swift */,
+				CCECD00C51968C607DEC64C0D20AC7A2 /* ValueType.swift */,
+				C437170C0843D813EA957685110D18A8 /* Support Files */,
+			);
+			name = Marshal;
+			path = Marshal;
+			sourceTree = "<group>";
+		};
+		4ECC959D8B16B8A1036B0114AFF3B14B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6992F7B664F4AC36B1A271B530FFC83 /* Pods-TwitchDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		534BE89F683C1D0F0725DCA509E28DA1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				148D799D59A686D91FE78D73D6F7B951 /* SwiftTwitch.modulemap */,
+				7C25FE0A680989EDAD0040366E9810A1 /* SwiftTwitch-dummy.m */,
+				607F0811EE345FB76A818076947BE8E2 /* SwiftTwitch-Info.plist */,
+				0AAAE897511601A76CCA4CAE2C6E9806 /* SwiftTwitch-prefix.pch */,
+				A6B793C6F08E87C1E73C76CCF962F30A /* SwiftTwitch-umbrella.h */,
+				76AEFCDF03321E15E96F106235CD755D /* SwiftTwitch.debug.xcconfig */,
+				F39227E5EBBD747F9C669134EE704F78 /* SwiftTwitch.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftTwitch";
+			sourceTree = "<group>";
+		};
+		7762E1F23147ED1018049B5C4F12B4C3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				74DC9B420223FBB8ECCADD4D4F832582 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AFE4E8271530E915A59C695EFE4EBB3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CB327940B690235A44886F8A541AA3F /* Marshal.framework */,
+				7762E1F23147ED1018049B5C4F12B4C3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6992F7B664F4AC36B1A271B530FFC83 /* Pods-TwitchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				33C3D323CD2863D87D9E5592B3434F2E /* Pods-TwitchDemo.modulemap */,
+				7A761A429B5D6A5EB1FA8BF141EC45AE /* Pods-TwitchDemo-acknowledgements.markdown */,
+				09775FD307406517D8445C1EAFB39D17 /* Pods-TwitchDemo-acknowledgements.plist */,
+				35E1C09D4C1FFD4C7C37569DC9ECE494 /* Pods-TwitchDemo-dummy.m */,
+				4DE771381E73F4CF974CCD5CF1AB5AF9 /* Pods-TwitchDemo-frameworks.sh */,
+				B155D020066EA8D6373E7BFA25D18E80 /* Pods-TwitchDemo-Info.plist */,
+				CA2A817484BDB4D534997C5DBF117140 /* Pods-TwitchDemo-umbrella.h */,
+				9A21CA1CE55C1A7C75B042D8CB095F2E /* Pods-TwitchDemo.debug.xcconfig */,
+				FA873FCBC07543BCAD90B4F1ED592FC8 /* Pods-TwitchDemo.release.xcconfig */,
+			);
+			name = "Pods-TwitchDemo";
+			path = "Target Support Files/Pods-TwitchDemo";
+			sourceTree = "<group>";
+		};
+		C437170C0843D813EA957685110D18A8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90AC4AE3B639F1529A1CEF06F7D2886C /* Marshal.modulemap */,
+				029B13F0A273ACBED859D64E6117F8E3 /* Marshal-dummy.m */,
+				317C7B6F2B75CD15DEDD951F38D23D75 /* Marshal-Info.plist */,
+				230BF53E2656D6A3D7AFF8D36767DDD3 /* Marshal-prefix.pch */,
+				1075E3E56999A91795F0D5D82F0BB325 /* Marshal-umbrella.h */,
+				69EBB10990BC37358BAFF49910BD94F5 /* Marshal.debug.xcconfig */,
+				EC0AE1E2C1F663AE8DBF9B2AA2D2713D /* Marshal.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Marshal";
+			sourceTree = "<group>";
+		};
+		C7999FB21D5E4031DB9131C9BE3B5520 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B1250C6DE9017BF954518230B81176E /* Marshal */,
+				24E2CFD4FA26CB007B7B829ADB9A3149 /* SwiftTwitch */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD47E184CAB2893F317B6EBBE343A0F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0F4BDBD152CF13D580057CF1CA4D6CA /* Marshal.framework */,
+				54BD4DD4BB4B4A0DF466FC0765A5A285 /* Pods_TwitchDemo.framework */,
+				55EC2D5B27CCFAF682D81FBBBEA22CAE /* SwiftTwitch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AFE4E8271530E915A59C695EFE4EBB3E /* Frameworks */,
+				C7999FB21D5E4031DB9131C9BE3B5520 /* Pods */,
+				CD47E184CAB2893F317B6EBBE343A0F1 /* Products */,
+				4ECC959D8B16B8A1036B0114AFF3B14B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		248FF77AED2C08E2B09326E4D2541331 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA3198A01E7D1BC63745BC3BBBE3828 /* SwiftTwitch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C20B60239C9A1CE17FB23E59556C4B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117D8485F40D3E58638884E1C8D8341C /* Pods-TwitchDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEFE48DF75517F238F4F85BEABD0CFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413F8F28DED6B654E45632F72586F978 /* Marshal-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		66073FB54BF5ED2CD4B22AB78C109473 /* Marshal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0E978C332742001C95A17A10756030B /* Build configuration list for PBXNativeTarget "Marshal" */;
+			buildPhases = (
+				DBEFE48DF75517F238F4F85BEABD0CFA /* Headers */,
+				33B8C2DA70F245AE5386D43A7A9C6CD9 /* Sources */,
+				FCF9342DAFE60DB42951DB4974313386 /* Frameworks */,
+				139D5048071DE0F78516EB39A8E6680B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marshal;
+			productName = Marshal;
+			productReference = C0F4BDBD152CF13D580057CF1CA4D6CA /* Marshal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		755813C3F50F2AA077F7EC0B5E3A85FE /* SwiftTwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D30022970019DABB6C44F2606D1A2E4 /* Build configuration list for PBXNativeTarget "SwiftTwitch" */;
+			buildPhases = (
+				248FF77AED2C08E2B09326E4D2541331 /* Headers */,
+				D532CF1057A069CCE40E83AC4272BF2F /* Sources */,
+				98F0CB23B29A42D6A891777F9839D5B2 /* Frameworks */,
+				DE43524BF89E26D9D6869B6229D6FF23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE593550CA7B774366B8D67FE8BEDFE3 /* PBXTargetDependency */,
+			);
+			name = SwiftTwitch;
+			productName = SwiftTwitch;
+			productReference = 55EC2D5B27CCFAF682D81FBBBEA22CAE /* SwiftTwitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B18EAB47FA9707E04FE1ED2E1A545B0 /* Pods-TwitchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 296BAD5022C45320B1C446D0B8F72A36 /* Build configuration list for PBXNativeTarget "Pods-TwitchDemo" */;
+			buildPhases = (
+				2C20B60239C9A1CE17FB23E59556C4B5 /* Headers */,
+				60313A13148507419F3CED268E8526FA /* Sources */,
+				6728D1107B3228C053401ADE24333044 /* Frameworks */,
+				86D5386C3991D1C7B143EBAA5BC6D5DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF59658A466326556CAEFBC945959B4B /* PBXTargetDependency */,
+				11FDD952773EE924255B7AF736869809 /* PBXTargetDependency */,
+			);
+			name = "Pods-TwitchDemo";
+			productName = "Pods-TwitchDemo";
+			productReference = 54BD4DD4BB4B4A0DF466FC0765A5A285 /* Pods_TwitchDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CD47E184CAB2893F317B6EBBE343A0F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66073FB54BF5ED2CD4B22AB78C109473 /* Marshal */,
+				9B18EAB47FA9707E04FE1ED2E1A545B0 /* Pods-TwitchDemo */,
+				755813C3F50F2AA077F7EC0B5E3A85FE /* SwiftTwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		139D5048071DE0F78516EB39A8E6680B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D5386C3991D1C7B143EBAA5BC6D5DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE43524BF89E26D9D6869B6229D6FF23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33B8C2DA70F245AE5386D43A7A9C6CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645C19762B4E65604E607CEED3C1ABC0 /* Error.swift in Sources */,
+				3A5CA9F13D29FF4DBDCE230E81C87451 /* JSON.swift in Sources */,
+				AD2C6444F955F3B2D72A7B168982D4DD /* KeyType.swift in Sources */,
+				BD3390B084D298741F792AF6BF503386 /* Marshal-dummy.m in Sources */,
+				EDB246A64550C3E0FC3C36E04D88F5F8 /* MarshalDictionary.swift in Sources */,
+				1D3BD15AA7FE2422D52F60BC0A4B776C /* MarshaledObject.swift in Sources */,
+				9D991E73374F8486CA4356A9CA3A3D1F /* Marshaling.swift in Sources */,
+				663AAF534B6919CA6D198F29366A2F3D /* Migration.swift in Sources */,
+				6FD2CCA044C1B7C1B8D2AC78514FF068 /* Operators.swift in Sources */,
+				0996A20E56682703D655975FACA71FA9 /* Unmarshaling.swift in Sources */,
+				BEFBD35531B6216F9F7803B89FF5E8CD /* UnmarshalingWithContext.swift in Sources */,
+				D785F1AFC78D9612FB14B2717A9EA215 /* UnmarshalUpdating.swift in Sources */,
+				DFA0A575818401F9CA4448006F4048A6 /* ValueType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60313A13148507419F3CED268E8526FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C30F0CCB4C264D39F75ABC775284E3E /* Pods-TwitchDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D532CF1057A069CCE40E83AC4272BF2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E78EB9FDFCE5A882A8EC5EA30C3734 /* ClipData.swift in Sources */,
+				96AE3B4D6077E9F3DF2C1C26F63E4A80 /* CreateClipData.swift in Sources */,
+				0EC3653693ECC83A20F9994C2AD1B709 /* CreateClipInfoData.swift in Sources */,
+				05B179953A5A08148811C2D269009455 /* CreateStreamMarkerData.swift in Sources */,
+				B3D1270C4C9325BFC0945E5EF923B917 /* DataParsingExtensions.swift in Sources */,
+				E17D601FF6C04FCD24AE337421C137E5 /* DateFormattingExtensions.swift in Sources */,
+				8E4BF409D5855E69DF2F8358AA150237 /* DictionaryExtensions.swift in Sources */,
+				41151B0B757ABE86D370CFFB5A2CFABF /* ExtensionAnalyticsReportData.swift in Sources */,
+				C514BC4BE937EC73CAE02D0913222471 /* ExtensionData.swift in Sources */,
+				2F9A85BAE9F207CD920D43427F6AD054 /* GameAnalyticsReportData.swift in Sources */,
+				EB9977DE154D370B4E31A3F9D278B68E /* GameData.swift in Sources */,
+				F77A95FD09AEDC8E0AED98C6F225CD28 /* GetBitsLeaderboardData.swift in Sources */,
+				ED6AF7FBE64187787C62D9A50CAC2389 /* GetBitsLeaderboardUserData.swift in Sources */,
+				726751A98D5EF46A0B18BF475D0176ED /* GetClipsData.swift in Sources */,
+				A2D1EA42C6E724CA95F97E11E70E3E42 /* GetExtensionAnalyticsData.swift in Sources */,
+				F689C4B4CB2431CF20371EBA11920208 /* GetGameAnalyticsData.swift in Sources */,
+				8B118A45C392741852E7E294560C5AD8 /* GetGamesData.swift in Sources */,
+				905A138F6CB40321EDCEB9EF59A38889 /* GetStreamMarkersData.swift in Sources */,
+				72F2ACC9CA4AD0EA886D2749BEF33686 /* GetStreamsData.swift in Sources */,
+				C26A8BE6D1219CB1194C784014EFBF1A /* GetStreamsMetadataData.swift in Sources */,
+				A7F8AE40DF0C2D48542F6E24D92CFAD2 /* GetTopGamesData.swift in Sources */,
+				5F3CCF7B91850DF17146CAF56FAFF5E6 /* GetUserExtensionsData.swift in Sources */,
+				CE5F827004C3DBABCA23B71330CADADC /* GetUsersData.swift in Sources */,
+				E6E0253AF64E25B312B06F65D82D2425 /* GetUsersFollowsData.swift in Sources */,
+				E26851FB3C86BBE196E4C41F13125219 /* GetVideosData.swift in Sources */,
+				295EA444DD980AACFA08811CDBF145DD /* HearthstoneHeroMetadata.swift in Sources */,
+				9BE8414CC802013FBD6E5B0211B046CE /* HearthstoneMetadata.swift in Sources */,
+				198C9679587D900AF71EF6103790035D /* HearthstonePlayerMetadata.swift in Sources */,
+				7AE42F9D15EC5E06333DB99EE384F737 /* MarkedStreamData.swift in Sources */,
+				CB02E009C45B6B0179442D0B60990D66 /* MarkedVideoData.swift in Sources */,
+				D007BFD6D34E4095CDA420030CA16EBC /* OverwatchHeroMetadata.swift in Sources */,
+				3B7A9C5197EAF3867C1DF38EE8941A6F /* OverwatchMetadata.swift in Sources */,
+				C7538090A767BC519B3960D995234D11 /* OverwatchPlayerMetadata.swift in Sources */,
+				BDD1419E5023DA310C7D570216B30D1E /* PaginationData.swift in Sources */,
+				8A9FE01766CE03CBD7843A6797B9BAAC /* PostedStreamMarkerData.swift in Sources */,
+				9D971F0530AE519F771C582CD2553C96 /* StreamData.swift in Sources */,
+				60FDD4A3CAE478BC05DFD22B015451D0 /* StreamMetadata.swift in Sources */,
+				1C9B1E837B4768D77D3AED2CA0F012BC /* SwiftTwitch-dummy.m in Sources */,
+				CCFBD7626E1FA1AFDBF75BFAD9A94CCF /* Twitch.swift in Sources */,
+				6AF56B9DDE2A68020C504070E615E91D /* TwitchTokenManager.swift in Sources */,
+				3670B9E968DB7291BB20B44051E0A5E9 /* UnpostedStreamMarkerData.swift in Sources */,
+				E2943FD3EB5CDDE62341EB85A8D14D84 /* UpdateUserData.swift in Sources */,
+				49A8D443498253A289CBE272F9A5CC34 /* URLExtension.swift in Sources */,
+				6806DAC61E5A5AB96D54A1E06F9C1101 /* URLRequestExtension.swift in Sources */,
+				A9DE7131A3102A3FFEB3DE34CE21840F /* UserData.swift in Sources */,
+				DBB303CA5743F000C1874C00165C5080 /* UserFollowData.swift in Sources */,
+				A6C14734130CBDE73F017973F809DCE8 /* VideoData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11FDD952773EE924255B7AF736869809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftTwitch;
+			target = 755813C3F50F2AA077F7EC0B5E3A85FE /* SwiftTwitch */;
+			targetProxy = 7A8F584E4271CB1148654B2E5775E51F /* PBXContainerItemProxy */;
+		};
+		AF59658A466326556CAEFBC945959B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Marshal;
+			target = 66073FB54BF5ED2CD4B22AB78C109473 /* Marshal */;
+			targetProxy = 05FD25C522AAE6DA3AD8DCC422C762E9 /* PBXContainerItemProxy */;
+		};
+		CE593550CA7B774366B8D67FE8BEDFE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Marshal;
+			target = 66073FB54BF5ED2CD4B22AB78C109473 /* Marshal */;
+			targetProxy = C1CB8306B586F281D421F56996FC9DB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40E274CDD03D50CC3B9C64796DCB3837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA873FCBC07543BCAD90B4F1ED592FC8 /* Pods-TwitchDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitchDemo/Pods-TwitchDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitchDemo/Pods-TwitchDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		76C8834164B5B07340430FDB99BF06B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A21CA1CE55C1A7C75B042D8CB095F2E /* Pods-TwitchDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitchDemo/Pods-TwitchDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitchDemo/Pods-TwitchDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8D422FA40A2E3E5958BB01EB49728B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F39227E5EBBD747F9C669134EE704F78 /* SwiftTwitch.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftTwitch/SwiftTwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftTwitch/SwiftTwitch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftTwitch/SwiftTwitch.modulemap";
+				PRODUCT_MODULE_NAME = SwiftTwitch;
+				PRODUCT_NAME = SwiftTwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9506809C8EA25E2096F83955EE90E26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EBB10990BC37358BAFF49910BD94F5 /* Marshal.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Marshal/Marshal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Marshal/Marshal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Marshal/Marshal.modulemap";
+				PRODUCT_MODULE_NAME = Marshal;
+				PRODUCT_NAME = Marshal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B19B231ACC82E9318189B5008CD507FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76AEFCDF03321E15E96F106235CD755D /* SwiftTwitch.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftTwitch/SwiftTwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftTwitch/SwiftTwitch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftTwitch/SwiftTwitch.modulemap";
+				PRODUCT_MODULE_NAME = SwiftTwitch;
+				PRODUCT_NAME = SwiftTwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB4D925C9ED6FF2CE7127F98B898FA16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0AE1E2C1F663AE8DBF9B2AA2D2713D /* Marshal.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Marshal/Marshal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Marshal/Marshal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Marshal/Marshal.modulemap";
+				PRODUCT_MODULE_NAME = Marshal;
+				PRODUCT_NAME = Marshal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		296BAD5022C45320B1C446D0B8F72A36 /* Build configuration list for PBXNativeTarget "Pods-TwitchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C8834164B5B07340430FDB99BF06B9 /* Debug */,
+				40E274CDD03D50CC3B9C64796DCB3837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */,
+				7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D30022970019DABB6C44F2606D1A2E4 /* Build configuration list for PBXNativeTarget "SwiftTwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19B231ACC82E9318189B5008CD507FA /* Debug */,
+				8D422FA40A2E3E5958BB01EB49728B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0E978C332742001C95A17A10756030B /* Build configuration list for PBXNativeTarget "Marshal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9506809C8EA25E2096F83955EE90E26C /* Debug */,
+				DB4D925C9ED6FF2CE7127F98B898FA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

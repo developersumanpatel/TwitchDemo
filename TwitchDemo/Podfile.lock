@@ -1,0 +1,20 @@
+PODS:
+  - Marshal (1.2.7)
+  - SwiftTwitch (0.1.0):
+    - Marshal (~> 1.2.7)
+
+DEPENDENCIES:
+  - SwiftTwitch
+
+SPEC REPOS:
+  trunk:
+    - Marshal
+    - SwiftTwitch
+
+SPEC CHECKSUMS:
+  Marshal: ef480864a6af10a63f67be7e55bb5d8fe67a16d9
+  SwiftTwitch: 40957abccac5d6d40d8e047224178364ebbaf20c
+
+PODFILE CHECKSUM: cb5d84cb5c6819e8ea65811b15ef172df8a84937
+
+COCOAPODS: 1.9.1

@@ -19,7 +19,7 @@ class TwitchVideoPresenter {
         self.delegate = delegate
     }
     
-    func getVideos() {
+    private func getVideos() {
         provider?.getVideos(completion: { (success, result) in
             if success, let videoData = result as? [VideoData] {
                 self.videos = videoData
@@ -31,6 +31,7 @@ class TwitchVideoPresenter {
     }
     
     func getToken() {
+        // TODO: If Token is not expired then direct call the get videos
         provider?.getToken(completion: { (success, result) in
             if success {
                 self.getVideos()

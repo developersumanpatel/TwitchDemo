@@ -155,17 +155,9 @@
 				7065A0782455887100846D3F /* NetworkClass */,
 				7065A06C2455753E00846D3F /* Extensions */,
 				7065A0632455662C00846D3F /* Manager */,
-				7065A0752455885F00846D3F /* NetworkClass */,
 				7065A05024555E0900846D3F /* Controllers */,
 			);
 			path = "app-folder";
-			sourceTree = "<group>";
-		};
-		7065A0752455885F00846D3F /* NetworkClass */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = NetworkClass;
 			sourceTree = "<group>";
 		};
 		7065A0782455887100846D3F /* NetworkClass */ = {
